@@ -1,0 +1,376 @@
+
+body{
+    font-family: 'roboto', 'sans-serif';
+    color: black;
+    margin: 0 ;
+}
+
+html{ 
+    scroll-behavior: smooth;
+}
+
+h1{ font-size:3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+.titulo1{
+    font-family: 'Courier New', Courier, monospace;
+    color: lightsalmon;
+
+}
+
+
+
+    .container{ 
+        max-width: 1400px;
+        margin: auto;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: start;
+    }
+    
+    header{
+        background-color: rgb(245, 245, 245);
+    
+    }
+    
+    header .logo{
+        margin: 0;
+        padding: 25px 30px;
+        font-weight: bold;
+        color: #b695c0;
+        font-size: 1.60em;
+    }
+    
+    header .container{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    
+    header a{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    
+    }
+    
+    header a:hover{
+        color: #b695c0;
+    }
+    
+    #titulo1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
+        color: white;
+        padding: 2px;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(media/formacion-antropología-de-la-vejez-para-enfermería.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    }
+    #fuente{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+    #fuente2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+    }
+
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #tema1 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema1 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema1 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+            border-radius: 15%;
+    }
+    .parrafo2{ 
+        max-width: 1400px;
+        margin: auto;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: start;
+    }
+
+
+    #tema2 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema2 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema2 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+        border-radius: 15%;
+    }
+
+    
+
+    #tema3 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema3 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema3 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema3.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+        border-radius: 15%;
+    }
+
+
+
+    #tema4 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema4 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema4 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema1.1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+        border-radius: 15%;
+    }
+
+
+    #tema5 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema5 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema5 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema5.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+        border-radius: 15%;
+    }
+
+    #tema6 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema6 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema6 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema6.jpg);
+        background-size: cover;
+        background-position: left;
+        height: 400px;
+        width: 500px;
+        border-radius: 15%;
+    }
+
+    #tema7 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema7 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema7 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema7.jpg);
+        background-size: cover;
+        background-position: left;
+        height: 400px;
+        width: 500px;
+        border-radius: 15%;
+    }
+    .centrar0{
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+    }
+
+    .tamaño1{
+        font-size: 2em;
+        text-align: justify;
+    }
+
+.parrafo6{
+    z-index: 1;
+    width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px;
+    border-radius: 5px;
+    text-align: justify;
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.parrafo5{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin: 15px;
+}
+
+.imagenalado{
+    max-width: 320px;
+    float: left ;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
